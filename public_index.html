@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Anatomy Simulation Platform (HASP) | Advanced Medical Training and Simulation</title>
+    <meta name="description" content="HASP: A comprehensive platform for simulating human anatomy, managing healthcare data, optimizing production lines, and advancing medical training through cutting-edge 3D technology.">
+    <meta name="keywords" content="human anatomy, medical simulation, healthcare data, production optimization, 3D modeling, medical training">
+    <meta name="author" content="HASP Team">
+    <link rel="stylesheet" href="/_next/static/css/app.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <meta name="theme-color" content="#0070f3">
+    <link rel="manifest" href="/manifest.json">
+    <meta property="og:title" content="Human Anatomy Simulation Platform (HASP)">
+    <meta property="og:description" content="Advanced medical training and simulation platform with 3D organ models, real-time collaboration, and data integration.">
+    <meta property="og:image" content="/og-image.jpg">
+    <meta property="og:url" content="https://hasp.netlify.app">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://hasp.netlify.app">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Human Anatomy Simulation Platform",
+      "description": "Advanced medical training and simulation platform with 3D organ models, real-time collaboration, and data integration.",
+      "url": "https://hasp.netlify.app",
+      "applicationCategory": "HealthcareApplication",
+      "operatingSystem": "Web"
+    }
+    </script>
+</head>
+<body>
+    <div id="__next">
+        <noscript>
+            <div style="padding: 20px; text-align: center; font-family: Arial, sans-serif;">
+                <h1>JavaScript is required</h1>
+                <p>The Human Anatomy Simulation Platform (HASP) requires JavaScript to run. Please enable JavaScript in your browser settings to use this application.</p>
+            </div>
+        </noscript>
+    </div>
+    <script src="/_next/static/chunks/webpack.js"></script>
+    <script src="/_next/static/chunks/main.js"></script>
+    <script src="/_next/static/chunks/react-refresh.js"></script>
+    <script src="/_next/static/chunks/pages/_app.js"></script>
+    <script src="/_next/static/chunks/pages/index.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/sw.js').then(function(registration) {
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function(err) {
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script>
+    <!-- Netlify Form Handling -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+    </form>
+</body>
+</html>
